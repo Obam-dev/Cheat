@@ -1,69 +1,20 @@
+/* Style untuk halaman */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #282828;
-    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    background-color: #000; /* Latar belakang hitam */
 }
 
-.menu {
-    background-color: #000;
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
+.text-container {
     text-align: center;
 }
 
-h2 {
-    color: yellow;
-    margin: 0;
-}
-
-h3 {
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.menu-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.menu-item span {
-    font-size: 1.2em;
-}
-
-.toggle-btn {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.toggle-btn.active {
-    background-color: yellow;
-    color: black;
-}
-
-.version {
-    margin-top: 20px;
-    font-size: 0.8em;
-    color: #aaa;
-}
-
-.close-menu button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
+.text-container p {
+    color: #fff; /* Warna teks putih */
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
 }
