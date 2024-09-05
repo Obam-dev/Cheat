@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teks Unik</title>
+    <title>Kirim Pesan WhatsApp</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="text-container">
-        <p>Reno Reno ngejar Aurel tapi dia friendly😂 kalo Alvin si malu</p>
+    <div class="container">
+        <h1>Kirim Pesan ke WhatsApp</h1>
+        <form id="whatsappForm" onsubmit="sendWhatsAppMessage(event)">
+            <label for="message">Pesan Anda:</label>
+            <textarea id="message" placeholder="Tulis pesan Anda di sini..." required></textarea>
+            <button type="submit">Kirim ke WhatsApp</button>
+        </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
